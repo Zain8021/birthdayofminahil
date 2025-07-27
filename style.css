@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffd1dc, #ffe2f5);
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #e91e63;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.poetry {
+  font-size: 1.4em;
+  color: #4a148c;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #e91e63;
+}
+
+.hidden {
+  display: none;
+}
+
+.cake {
+  width: 300px;
+  margin-top: 20px;
+}
+
+.balloons {
+  width: 180px;
+  margin: 15px;
+}
+
+.animated-text {
+  font-size: 2.5em;
+  color: #ff5722;
+  animation: bounce 1s infinite;
+  margin-top: 20px;
+}
+
+.clap {
+  font-size: 2em;
+  color: #6a1b9a;
+  margin-top: 10px;
+}
+
+.corner-images {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.corner {
+  width: 80px;
+  height: auto;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
